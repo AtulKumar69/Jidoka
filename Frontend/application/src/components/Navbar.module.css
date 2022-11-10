@@ -1,0 +1,29 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: rgb(177, 205, 163);
+    box-shadow: 0 0 10px rgba(99, 72, 72, 0.1);
+    height: 5rem;
+    border-radius: 50px;
+}
+.Logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(121, 20, 20);
+    text-decoration: none;
+}
+button{
+    margin-left: 1rem;
+}
+.NavbarBt{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(119, 57, 97);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}

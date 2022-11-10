@@ -1,0 +1,53 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    background-color: #edeaec;
+}
+.head{
+    font-size:40px;
+    font-weight:bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+form label{
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+form input{
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 15px;
+    font-weight: 700;
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(29, 8, 133);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: -5.5px;
+}
+form button:hover{
+    background-color: #333;
+}
+
